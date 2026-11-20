@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	var n int
+	var n int32
 	fmt.Scan(&n)
-	nums := make([]int, n)
+	nums := make([]int32, n)
 	for i := range nums {
-		nums[i] = i + 1
+		nums[i] = int32(i) + 1
 	}
 
-	var i, j int
+	var i, j int32
 	for n > 1 {
 		i, j = 0, 0
 		for j < n {
