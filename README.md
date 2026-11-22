@@ -34,7 +34,7 @@ To test the score of this code, select `Go 1.24` in the programming language sel
 
 If you want to run this code in an interactive mode, you can use this OnlineGDB link: https://onlinegdb.com/DWxqNayxL
 
-If you wish to run this code locally, install GHC ([instructions here](https://go.dev/doc/install)) and run the Go program using the following command in your terminal:
+If you wish to run this code locally, install Go ([instructions here](https://go.dev/doc/install)) and run the Go program using the following command in your terminal:
 
 ```bash
 go run go/main.go
