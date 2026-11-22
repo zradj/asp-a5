@@ -8,4 +8,3 @@ f (x:xs) mode = x
 main = do
     input <- readLn :: IO Int
     print $ f [1..input] 1
-
